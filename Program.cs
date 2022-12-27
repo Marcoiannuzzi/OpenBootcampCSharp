@@ -139,21 +139,21 @@ for (int i = 0; i < ancho; i++)
 
 Console.WriteLine();
 
-for (int i = 0; i < alto-2; i++)
+for (int i = 0; i < alto - 2; i++)
 {
     Console.Write("*");
 
-    for (int j = 0; j < ancho-2; j++)
+    for (int j = 0; j < ancho - 2; j++)
     {
         if (relleno == "s")
         {
             Console.Write("*");
         }
-        else if(relleno == "n")
+        else if (relleno == "n")
         {
-            Console.Write(" "); 
+            Console.Write(" ");
         }
-        
+
     }
 
     Console.Write("*");
@@ -166,6 +166,10 @@ for (int i = 0; i < ancho; i++)
 {
     Console.Write("*");
 }
+
+
+
+
 
 
 
